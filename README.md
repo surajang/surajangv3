@@ -1,6 +1,6 @@
 # surajang v3
 under construction
 
-todo:
-1) review code
-2) re-model the base html
+## todo:
+- Review code
+- Re-model the base html
