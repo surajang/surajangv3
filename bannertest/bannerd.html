@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="banner.js"></script>
+</head>
+<body>
+  <!-- 동적 생성시 data-slotcount에 전체 배너 이미지 개수를 pass합니다(필수)-->
+  <div id="bannerbox" data-slotcount="4">
+        <!-- 첫 이미지 slot에 active class를 추가해주세요. slot ID는 순차적으로 1 ~ n까지 부여합니다 -->
+        <div class="slot active" id="slot1" data-banner-img="img/banner01.jpg">BANNER SLOT #1BANNER SLOT #1BANNER SLOT #1BANNER SLOT #1</div>
+        <div class="slot" id="slot2" data-banner-img="banner02.jpg">BANNER SLOT #2<br>BANNER SLOT #2<br>BANNER SLOT #2</div>
+        <div class="slot" id="slot3" data-banner-img="banner04.jpg">BANNER SLOT #3</div>
+        <div class="slot" id="slot4" data-banner-img="banner03.jpg">BANNER SLOT #4</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+#bannerbox {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-image: url("wtf.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slot {
+  position: absolute;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*display: none; */
+}
+
+.active {
+  z-index: 2;
+}
